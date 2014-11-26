@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>文件管理管理</title>
+		<script type="text/javascript">
+		    $(function() {
+		        $( "#tabs" ).tabs();
+		    });
+		</script>
+	</head>
+	<body>
+		<div id="container">
+		    <div id="header">
+		        <div class="welcome">
+		            欢迎使用
+		        </div>
+		        <div class="title">
+		            文件管理器
+		        </div>
+		    </div>
+		    <div id="menu">
+		        <ul>
+		            <li>
+		                <a href="3">menu 1</a>
+		            </li>
+		            <li>
+                        <a href="3">menu 2</a>
+                    </li>
+                    <li>
+                        <a href="3">menu 3</a>
+                    </li>
+		        </ul>
+		    </div>
+		    <div id="main">
+		        <div id="tabs">
+                    <ul>
+                        <li>
+                            <a href="#tabs-1">根据文件名搜索</a>
+                        </li>
+                        <li>
+                            <a href="#tabs-2">根据文件路径搜索</a>
+                        </li>
+                        <li>
+                            <a href="#tabs-3">根据文件内容搜索</a>
+                        </li>
+                        <li>
+                            <a href="#tabs-4">根据标签搜索</a>
+                        </li>
+                    </ul>
+                    <div id="tabs-1" class="tab">
+                        <input type="text" value"" placeholder="请输入文件名" />
+                        <input id="search-btn" type="button" value="查询" />
+                    </div>
+                    <div id="tabs-2" class="tab">
+                        <input type="text" value"" placeholder="请输入文件路径" />
+                        <input id="search-btn" type="button" value="查询" />
+                    </div>
+                    <div id="tabs-3" class="tab">
+                        <input type="text" value"" placeholder="请输入文件内容" />
+                        <input id="search-btn" type="button" value="查询" />
+                    </div>
+                    <div id="tabs-4" class="tab">
+                        <input type="text" value"" placeholder="请输入标签" />
+                        <input id="search-btn" type="button" value="查询" />
+                    </div>
+                </div>
+                <hr />
+                <div id="content">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>
+                                    <img src="image/txt.png" />
+                                    <div>新建文本文档.txt</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="image/txt.png" />
+                                    <div>新建文本文档.txt</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="image/txt.png" />
+                                    <div>新建文本文档.txt</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="image/txt.png" />
+                                    <div>新建文本文档.txt</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="image/txt.png" />
+                                    <div>新建文本文档.txt</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+		    </div>
+		</div>
+	</body>
+</html>

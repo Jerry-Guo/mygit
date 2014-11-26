@@ -1,0 +1,128 @@
+@charset "UTF-8"
+
+html, *, body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, p, span {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: whitesmoke;
+	font-size: 14px;
+	text-align: center;
+}
+
+input[type="text"] {
+	width: 150px;
+	border-radius: 2px;
+	font-family: "仿宋";
+}
+
+#container {
+	width: 1025px;
+	height: auto;
+	margin: auto;
+	border 1px solid black;
+}
+
+#header, #menu, #main {
+	border-radius: 5px;
+}
+
+#header {
+	width: 1002px;
+	height: 50px;
+	padding: 10px;
+	background-color: cadetblue;
+	border: 1px solid black;
+}
+
+#header .welcome {
+	width: 160px;
+	padding-left: 50px;
+	padding-top: 10px;
+	font-family: "华文行楷";
+	font-size: 30px;
+	color: green;
+	letter-spacing: 10px;
+	float: left;
+}
+
+#header .title {
+	width: 220px;
+	padding-top: 5px;
+	font-family: "楷体";
+	font-size: 32px;
+	color: black;
+	letter-spacing: 10px;
+	float: left;
+}
+
+#menu {
+	width: 150px;
+	min-height: 550px;
+	padding: 5px;
+	height: auto;
+	background-color: rgb(142, 186, 197);
+	border: 1px solid black;
+	float: left;
+}
+
+#menu ul {
+	list-style: none;
+	text-align: left;
+	padding-left: 0px;
+}
+
+#menu ul li {
+	margin-top: 4px;
+	padding: 5px;
+	background-color: rgb(133, 221, 147);
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+#menu ul li:hover {
+	margin-top: 5px 0px;
+	padding: 6px;
+	background-color: yellowgreen;
+	box-shadow: 3px 3px 3px gray;
+}
+
+#main {
+	width: 850px;
+	min-height: 550px;
+	padding: 5px;
+	height: auto;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+}
+
+#main #tabs {
+	border: none;
+}
+
+#main #tabs .tab {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+#main #tabs .tab input[type="button"] {
+	margin-left: 20px;
+	border-radius: 5px;
+	font-family: "仿宋";
+	font-weight: bold;
+}
+
+#main #content {
+	text-align: left;
+	padding: 5px;
+}
+
+#content img {
+	width: 80px;
+	height: 80px;
+}
